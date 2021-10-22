@@ -1,0 +1,54 @@
+/** body conteneur site **/
+body {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: white;
+  border:solid 1px white;
+  border-radius:10px;
+}
+main #colo{
+  background-color: rgb(218, 218, 218);
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  padding: 25px;
+  border: solid 1px white;
+  border-radius: 10px;
+  grid-area: main;
+}
+main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  padding: 25px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+#txt{
+  font-family: Andale Mono, monospace;
+  font-size: 24px;
+
+  text-align: center;
+}
+/** menu **/
+#menu {
+  font-family: Andale Mono, monospace;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  grid-area: menu;
+}
+#menu a {
+  width: 14vw;
+  text-decoration: none;
+  height: 15vh;
+line-height: 15vh;
+text-align: center;
+}
+
+#welco{
+  width: 45vw;
+  margin: 0 auto;
+}
