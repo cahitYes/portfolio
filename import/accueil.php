@@ -16,10 +16,10 @@
 
 
             <div id="welco">
-              <img src="img/welcome.png"/>
+              <img src="img/test.png"/>
             </div>
         <p id="txt">
-            Bienvenue sur mon Portefolio, vous trouverez ici mes différents travaux et liens utiles.
+            Bienvenue sur le Portefolio de <span class=orange>YESILOGLU CAHIT</span>, vous trouverez ici mes différents travaux et liens utiles.
         </p>
 </main>
 </body>

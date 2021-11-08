@@ -1,11 +1,13 @@
 <?php
 ?>
-<nav id="menu">
-    <a href="./">Accueil</a>
-    <a href="./?pages=cv">CV</a>
-    <a href="./?pages=tuto">Tutoriel</a>
-    <img src="img/logo150.png" />
-    <a href="./?pages=galeries">Galeries</a>
-    <a href="./?pages=liens">Liens</a>
-    <a href="./?pages=contact">Contact</a>
-</nav>
+<nav class="style-4">
+		<ul class="menu-4">
+		  <li><a href="./" data-hover="Home">Home</a></li>
+		  <li><a href="./?pages=cv" data-hover="Mon CV">Mon CV</a></li>
+		  <li><a href="./?pages=tuto" data-hover="Tutoriel">Tutoriel</a></li>
+		  <img id="logo" src="img/logo150.png" />
+		  <li><a href="./?pages=galeries" data-hover="Galeries">Galeries</a></li>
+		  <li><a href="./?pages=liens" data-hover="Liens">Liens</a></li>
+		  <li><a href="./?pages=contact" data-hover="Contact">Contact</a></li>
+		</ul>
+	</nav>

@@ -1,13 +1,14 @@
+/**  **/
 /** body conteneur site **/
 body {
   width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
   background-color: white;
-  border:solid 1px white;
-  border-radius:10px;
+  border: solid 1px white;
+  border-radius: 10px;
 }
-main #colo{
+main #colo {
   background-color: rgb(218, 218, 218);
   margin: 0 auto;
   width: 80vw;
@@ -17,7 +18,7 @@ main #colo{
   border-radius: 10px;
   grid-area: main;
 }
-main{
+main {
   margin: 0 auto;
   width: 80vw;
   height: 80vh;
@@ -25,30 +26,135 @@ main{
   border: solid 1px white;
   border-radius: 10px;
 }
-#txt{
+main div img {
+  width: 70vw;
+
+  margin: 0 auto;
+  display: block;
+}
+#txt {
   font-family: Andale Mono, monospace;
   font-size: 24px;
 
   text-align: center;
 }
-/** menu **/
-#menu {
-  font-family: Andale Mono, monospace;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 10vw;
-  grid-area: menu;
+.orange {
+  color: #e67e22;
 }
-#menu a {
-  width: 14vw;
+/** menu **/
+.menu-4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.menu-4 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu-4 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.menu-4 a {
+  padding: 0.3em 0;
+  color: #212121;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
   text-decoration: none;
-  height: 15vh;
-line-height: 15vh;
-text-align: center;
+}
+.menu-4 a:before,
+.menu-4 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu-4 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e67e22;
+}
+.menu-4 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: #212121;
+  white-space: nowrap;
+}
+.menu-4 li:hover a,
+.menu-4 .current a {
+  transform: translateY(100%);
+}
+.menu img {
+  width: 119px;
+  height: 119px;
+}
+/** Form **/
+label {
+  width: 200px;
+  height: 30px;
+  text-align: right;
+}
+input {
+  width: 400px;
+  height: 30px;
+}
+textarea {
+  width: 400px;
+  height: 80px;
+}
+div input {
+  height: 50px;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+}
+form {
+  text-align: center;
+  font-size: 20px;
+}
+.nom,
+.email,
+.msg,
+.envoi {
+  margin: 20px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  height: 2em;
+  line-height: 2em;
+  font-size: 1.2em;
 }
 
-#welco{
-  width: 45vw;
-  margin: 0 auto;
+.msg label {
+  float: left;
+}
+
+.msg textarea {
+  height: 80px;
+  width: 400px;
+  resize: none;
+}
+
+.envoi input {
+  display: block;
+  width: 300px;
+  height: 50px;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 1023px) {
+  #logo {
+    display: none;
+  }
 }
