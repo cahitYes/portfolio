@@ -153,6 +153,38 @@ label {
   height: 50px;
   font-size: 1.2em;
 }
+/** liens **/
+#conteneurliens {
+  width: 80vw;
+}
+#conteneurliens h2 {
+  margin: 0;
+  color: aliceblue;
+}
+#liens {
+  padding: 15px;
+  margin: 15px auto;
+  width: 75vw;
+  background-color: /**#36688d**/ #e67e22;
+  border-radius: 10px;
+}
+#liens img {
+  width: 80px;
+  margin-left: 15px;
+}
+
+/** page tutoriel**/
+#tutoriel {
+  font-family: Andale Mono, monospace;
+  width: 75vw;
+  margin: 0 auto;
+  padding-top: 10vh;
+}
+#tutoriel h3 {
+  font-family: Andale Mono, monospace;
+  text-decoration: underline;
+  text-decoration-color: #e67e22;
+}
 @media screen and (max-width: 1023px) {
   #logo {
     display: none;
