@@ -221,7 +221,10 @@ figcaption{
   text-decoration: underline;
   text-decoration-color: #e67e22;
 }
-
+/** cv **/
+#cv{
+  width: 80vw;
+}
 /** admin **/
 #admin{
   width: 100vw;

@@ -20,7 +20,7 @@
   <br /><br />
    <a href="img/CV_Cahit_Yesiloglu.pdf">mon cv ici</a>
    <br /><br />
-   <img src="img/cvcy.gif"/>
+   <img id="cv" src="img/cvcy.gif"/>
 
 </body>
 </html>
