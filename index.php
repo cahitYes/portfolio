@@ -17,9 +17,12 @@ if (!isset($_GET['pages'])) {
         case "contact":
             include_once "import/contact.php";
             break;
-        case "galeries":
-            include_once "import/galeries.php";
+        case "galerie":
+            include_once "import/galerie.php";
             break;
+            case "admin":
+                include_once "import/admin.php";
+                break;
 
         default:
             include_once "import/accueil.php";

@@ -7,6 +7,7 @@ body {
   background-color: white;
   border: solid 1px white;
   border-radius: 10px;
+  
 }
 main #colo {
   background-color: rgb(218, 218, 218);
@@ -27,7 +28,7 @@ main {
   border-radius: 10px;
 }
 main div img {
-  width: 70vw;
+  width: 60vw;
 
   margin: 0 auto;
   display: block;
@@ -153,6 +154,7 @@ label {
   height: 50px;
   font-size: 1.2em;
 }
+
 /** liens **/
 #conteneurliens {
   width: 80vw;
@@ -167,10 +169,44 @@ label {
   width: 75vw;
   background-color: /**#36688d**/ #e67e22;
   border-radius: 10px;
+  
 }
 #liens img {
   width: 80px;
   margin-left: 15px;
+  
+  
+}
+#liens a{
+  font-family: Andale Mono, monospace;
+  text-decoration: none;
+  color: aliceblue;
+}
+.flex{
+  display:flex;
+  gap: 10px;
+}
+/** page galerie**/
+
+#galerie {
+  width: 80vw;
+  margin: 0 auto;
+}
+#galerie img {
+  margin-left: 17vw ;
+  margin-right: 17vw;
+  margin-top: 5vw;
+  width: 45vw;
+  border: 2px solid #e67e22;
+  padding:3px;
+
+}
+#galerie a {
+  text-decoration: none;
+}
+figcaption{
+  text-align: center;
+  
 }
 
 /** page tutoriel**/
@@ -184,6 +220,11 @@ label {
   font-family: Andale Mono, monospace;
   text-decoration: underline;
   text-decoration-color: #e67e22;
+}
+
+/** admin **/
+#admin{
+  width: 100vw;
 }
 @media screen and (max-width: 1023px) {
   #logo {
