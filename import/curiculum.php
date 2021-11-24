@@ -13,14 +13,16 @@
 </head>
 <body>
     
-    <h1>Curriculum</h1>
+    
     <?php
     include "menu.php";
     ?>
+     <h1>Curriculum</h1>
   <br /><br />
-   <a href="img/CV_Cahit_Yesiloglu.pdf">mon cv ici</a>
+  <div id="cv">
+   Vous pouvez télécharger mon cv <a href="img/CV_Cahit_Yesiloglu.pdf">ici</a>
    <br /><br />
    <img id="cv" src="img/cvcy.gif"/>
-
+  </div>
 </body>
 </html>

@@ -54,7 +54,7 @@ if(isset($_POST["nom"])
     ?>
    
  
-        <div> <h2>Pour me contacter</h2></div>
+        <div> <h1>Pour me contacter</h1></div>
         <form method="post" action="">
             <label for="nom">Nom :</label>
                  <input type="text" id="nom" name="nom" value="" placeholder="nom ?" required />

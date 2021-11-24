@@ -8,9 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <img id="admin" src="./img/image.png"/>
     <?php
     include "menu.php";
     ?>
+    <div id="admin">
+    <p>Bienvenue sur ma page Admin malheureusement elle n'est pas encore fini !! </p>
+    </div>
 </body>
 </html>

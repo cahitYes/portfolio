@@ -9,6 +9,10 @@ body {
   border-radius: 10px;
   
 }
+h1{
+  font-family: Andale Mono, monospace;
+  text-align: center;
+}
 main #colo {
   background-color: rgb(218, 218, 218);
   margin: 0 auto;
@@ -158,6 +162,7 @@ label {
 /** liens **/
 #conteneurliens {
   width: 80vw;
+  margin: 0 auto;
 }
 #conteneurliens h2 {
   margin: 0;
@@ -224,11 +229,19 @@ figcaption{
 }
 /** cv **/
 #cv{
-  width: 80vw;
+  text-align: center;
+  width: 75vw;
+  margin: 0 auto;
 }
 /** admin **/
 #admin{
-  width: 100vw;
+  width: 80vw;
+  vertical-align: middle;
+  text-align:center ;
+  font-family: Andale Mono, monospace;
+  font-size: 24px;
+  margin: 0 auto;
+  
 }
 @media screen and (max-width: 1023px) {
   #logo {
